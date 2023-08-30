@@ -1,0 +1,17 @@
+{
+    "name": "Back-End Costs",
+    "version": 2,
+    "public": true,
+    "builds": [
+        {
+            "src": "App.js",
+            "use": "@vercel/node"
+        }
+    ],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest":"App.js"
+        }
+    ]
+}
