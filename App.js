@@ -5,7 +5,7 @@ require("./models/Projetos")
 const Projetos = mongoose.model("projetos")
 require("./models/Categorias")
 const Categorias = mongoose.model("categorias")
-require("dotenv").config
+
 
     Categorias.create()
 const app = express()
